@@ -5,12 +5,12 @@ const arrayNum = [];
 
 for (let i = 0; i < 1000; i++) {
   let userNum = Number(prompt("inserisci numero"));
+  // Quando l'utente scriverà 2 volte consecutive lo stesso numero
   if (arrayNum.includes(userNum)) {
     alert("hai scritto due volte lo stesso numero");
     break;
+    // allora il programma dovrà terminare.
   } else {
     arrayNum.push(userNum);
   }
 }
-
-// Quando l'utente scriverà 2 volte consecutive lo stesso numero allora il programma dovrà terminare.
