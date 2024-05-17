@@ -12,5 +12,3 @@ for (let i = 0; i < numCap; i++) {
   //e stampare tutta la tabellina del 2 fino al numero inserito.
   console.log(value);
 }
-
-//e stampare tutta la tabellina del 2 fino al numero inserito.
