@@ -2,7 +2,7 @@
 
 //Fate generare un numero random da 0 a 10 al computer,
 
-let randomNum = Math.random(0, 10);
+let randomNum = getRandomArbitrary(0, 10);
 
 // e chiedete all'utente di inserire un suo numero.
 
@@ -16,4 +16,7 @@ if (userNum === randomNum) {
 } else {
   //altrimenti ha perso.
   alert("YOU LOOSE");
+}
+function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
 }
