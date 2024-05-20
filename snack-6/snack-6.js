@@ -2,7 +2,7 @@
 
 //Fate generare un numero random da 0 a 10 al computer,
 
-let randomNum = getRandomArbitrary(0, 10);
+let randomNum = Math.floor(getRandomArbitrary(0, 10));
 
 // e chiedete all'utente di inserire un suo numero.
 
